@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Stack orientation="vertical" width="300">
+        <Label width="100%" halign="left" text="1" fontSize="10" />
+        <Label width="100%" halign="left" text="2" fontSize="20" />
+        <Label width="100%" halign="left" text="3" fontSize="30" />
+        <Label width="100%" halign="left" text="4" fontSize="40" />
+        <Label width="100%" halign="left" text="5" fontSize="50" />
+        <Label width="100%" halign="right" text="6" fontSize="10" />
+        <Label width="100%" halign="right" text="7" fontSize="20" />
+        <Label width="100%" halign="right" text="8" fontSize="30" />
+        <Label width="100%" halign="right" text="9" fontSize="40" />
+        <Label width="100%" halign="right" text="10" fontSize="50" />
+        <Label width="100%" halign="center" text="11" />
+    </Stack>
+</UI>

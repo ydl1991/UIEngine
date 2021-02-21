@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Stack>
+        <Repeat count="3">
+            <RectShape width="100" height="100" r="0" g="255" b="0" filled="false" />
+            <RectShape width="50" height="50" r="0" g="0" b="255" filled="true" />
+        </Repeat>
+        <RectShape width="100" height="100" r="255" g="0" b="0" filled="false" />
+    </Stack>
+</UI>

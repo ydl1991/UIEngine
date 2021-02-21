@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        The game is basically composed by UIs, therefore this XML is gonna have most of the content showing on screen.
+        The rest will just be logics written in Logic.h to mulnipulate the UIs.
+    -->
+    
+    <!-- Data Variables -->
+    <Data variable="pairLeft" value="15" />
+    <Data variable="trial" value="0" />
+    <Data variable="message" value="Message Display Here" />
+  
+    <!-- Main Canvas Verticle Stack -->
+    <Stack orientation="vertical" flexSize="false">
+        
+        <!-- Top Info Panel -->
+        <!-- Panel Background Image -->   
+        <Stack orientation="horizontal" flexSize="false" width="100%" height="15%" >
+            <Image width="80%" height="100%" slices="4,4,4,4" source="Assets/Button/background-sliced.png">
+                <!-- Vertical Allignment Stack -->
+                <Stack orientation="vertical" flexSize="false" width="100%">
+                    <!-- Game Title Section -->
+                    <Label width="100%" height="70%" fontSize="40" valign="middle" halign="center" text="Happy Match" />
+                    <!-- Game Info Section -->
+                    <Stack orientation="horizontal" flexSize="false" width="100%" height="30%">
+                        <Label width="50%" height="100%" fontSize="25" valign="middle" halign="center" text="Pairs Left: {pairLeft}" />
+                        <Label width="50%" height="100%" fontSize="25" valign="middle" halign="center" text="Number of Trials: {trial}" />
+                    </Stack>
+                </Stack>
+            </Image>
+          
+            <!-- Vertical Allignment Stack -->
+            <Stack orientation="vertical" flexSize="false" width="20%">
+                <!-- Number of Pair Input -->
+                <Stack orientation="horizontal" flexSize="false" height="50%" >
+                    <Label width="75%" height="100%" fontSize="20" valign="middle" halign="center" text="Num of Pairs:" />
+                    <Input width="25%" height="100%" fontSize="50" max="2" inputType="int" tag="PairInput" />
+                </Stack>
+                <Stack orientation="horizontal" flexSize="false" height="50%" >
+                    <Button width="50%" height="100%" tag="ResetButton">
+                        <Image button:states="up" width="100%" height="100%" source="Assets/Button/background-up.png" />
+                        <Image button:states="over" width="100%" height="100%" source="Assets/Button/background-over.png" />
+                        <Image button:states="down" width="100%" height="100%" source="Assets/Button/background-down.png" />
+                        <Label width="100%" height="100%" fontSize="20" halign="center" valign="middle" text="Reset Game" />
+                    </Button>
+                    <Button width="50%" height="100%" tag="ExitButton">
+                        <Image button:states="up" width="100%" height="100%" source="Assets/Button/background-up.png" />
+                        <Image button:states="over" width="100%" height="100%" source="Assets/Button/background-over.png" />
+                        <Image button:states="down" width="100%" height="100%" source="Assets/Button/background-down.png" />
+                        <Label width="100%" height="100%" fontSize="20" halign="center" valign="middle" text="Back To Menu" />
+                    </Button>
+                </Stack>                
+            </Stack>
+        </Stack>
+      
+        <!-- Middle Game Panel -->
+        <!-- Buttons Panel -->
+        <Wrap orientation="horizontal" flexSize="false" height="70%" horizontalGap="10" verticalGap="10">
+            <Repeat count="30" flexSize="false" tag="GamePanel" >
+                <Button width="117" height="154">
+                    <RectShape button:states="up" r="63" g="172" b="204" />
+                    <RectShape button:states="over" r="145" g="191" b="225" />
+                    <RectShape button:states="down" r="37" g="145" b="137" />
+                </Button>                
+            </Repeat>     
+        </Wrap>
+
+        <!-- Bottom Message Panel -->
+        <Image width="100%" height="15%" slices="4,4,4,4" source="Assets/Button/background-sliced.png">      
+            <!-- Message Display Section -->
+            <Label width="100%" height="100%" fontSize="20" valign="middle" halign="center" text="{message}" />
+        </Image>
+    
+    </Stack>
+
+</UI>

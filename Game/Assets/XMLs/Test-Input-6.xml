@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Input width="100" max="100" placeholder="<scrolling clipped test>" fontSize="20" />
+</UI>

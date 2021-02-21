@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        This test demonstrates that you should be able to bind properties of other elements.
+        Here we have a rectangle whose width can be changed by editing the text in the Input field.
+    -->
+    <Data variable="rectWidth" value="100%" />
+    <Stack>
+        <RectShape width="{rectWidth}" height="100" r="255" g="0" b="0" />
+        <Input text="{rectWidth}" />
+    </Stack>
+</UI>

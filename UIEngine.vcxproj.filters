@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{9f1ee600-945b-4fc5-a347-cd8d3e185cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Keyboard">
+      <UniqueIdentifier>{aea42904-59bd-4e8b-8916-a8ef5619af1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Resource">
+      <UniqueIdentifier>{8e502dda-ebbe-4f14-a0d9-b5a592c1541d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI">
+      <UniqueIdentifier>{6bfba272-0ab4-4d95-8a97-d834268a39ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIElement">
+      <UniqueIdentifier>{f85b9521-5d18-46e5-ab5c-8999f4163ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIElement\Image">
+      <UniqueIdentifier>{028606a9-79d9-4a0e-ba7f-1f91e2245fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIElement\Textfield">
+      <UniqueIdentifier>{6edbeb6f-b709-43bc-b4bf-d75f6f4c8a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Utils">
+      <UniqueIdentifier>{f441339b-3f1e-4d92-b338-9aeecc3d91a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Utils\Tinyxml">
+      <UniqueIdentifier>{6d9b7a93-cca7-4099-a6ac-5312e3afd159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIElement\Button">
+      <UniqueIdentifier>{2869cfcb-7f47-425f-b897-7f7b2ee5d881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIElement\RectShape">
+      <UniqueIdentifier>{048f1c02-80ae-4aa7-9c52-516f6f089323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIElement\Scroll">
+      <UniqueIdentifier>{1bca0318-0c87-49cb-b5e1-a5262df45827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Mouse">
+      <UniqueIdentifier>{9a11c643-2aa5-430d-9847-b64d17068106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIElement\Input">
+      <UniqueIdentifier>{5f5b3a8a-6610-441d-91a1-24a98d0c970d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIProperty">
+      <UniqueIdentifier>{d5abdb1f-689a-4cea-a134-4b288fabdf5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\UI\UIElement\Repeat">
+      <UniqueIdentifier>{b9b61d86-e25a-4071-8926-c9d037f1cc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLayer">
+      <UniqueIdentifier>{c88f2aa9-a1bf-4141-9a04-8b0a3e7e3c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLayer\Process">
+      <UniqueIdentifier>{08f862c1-3199-44e5-a087-1318f1779fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLayer\Process\DelayProcess">
+      <UniqueIdentifier>{d744f5e0-9ca0-4a10-a20f-47b313c13a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLayer\Process\FloatingProcess">
+      <UniqueIdentifier>{e7423814-b908-4f73-affc-ede22eff4e81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Source\Keyboard\Keyboard.cpp">
+      <Filter>Source Files\Application\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UIApplication.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Resource\ResourceLoader.cpp">
+      <Filter>Source Files\Application\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIManager.cpp">
+      <Filter>Source Files\Application\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIElement\UIElement.cpp">
+      <Filter>Source Files\Application\UI\UIElement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIElement\Image\UIImage.cpp">
+      <Filter>Source Files\Application\UI\UIElement\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIElement\Textfield\UITextfield.cpp">
+      <Filter>Source Files\Application\UI\UIElement\Textfield</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Utils\TinyXml\tinyxml2.cpp">
+      <Filter>Source Files\Application\Utils\Tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIElement\Button\UIButton.cpp">
+      <Filter>Source Files\Application\UI\UIElement\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIElement\RectShape\UIRectShape.cpp">
+      <Filter>Source Files\Application\UI\UIElement\RectShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIElement\Scroll\UIScroll.cpp">
+      <Filter>Source Files\Application\UI\UIElement\Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Mouse\Mouse.cpp">
+      <Filter>Source Files\Application\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIElement\Input\UIInput.cpp">
+      <Filter>Source Files\Application\UI\UIElement\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIProperty\UIProperty.cpp">
+      <Filter>Source Files\Application\UI\UIProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\UI\UIElement\Repeat\UIRepeat.cpp">
+      <Filter>Source Files\Application\UI\UIElement\Repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\GameLogic.cpp">
+      <Filter>Source Files\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Process\UIProcess.cpp">
+      <Filter>Source Files\GameLayer\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Process\UIProcessController.cpp">
+      <Filter>Source Files\GameLayer\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Process\UIDelayProcess.cpp">
+      <Filter>Source Files\GameLayer\Process\DelayProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Process\UIFloatingProcess.cpp">
+      <Filter>Source Files\GameLayer\Process\FloatingProcess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Source\Keyboard\Keyboard.h">
+      <Filter>Source Files\Application\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UIApplication.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Resource\ResourceLoader.h">
+      <Filter>Source Files\Application\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIManager.h">
+      <Filter>Source Files\Application\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIElement\UIElement.h">
+      <Filter>Source Files\Application\UI\UIElement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIElement\Image\UIImage.h">
+      <Filter>Source Files\Application\UI\UIElement\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIElement\Textfield\UITextfield.h">
+      <Filter>Source Files\Application\UI\UIElement\Textfield</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Utils\TinyXml\tinyxml2.h">
+      <Filter>Source Files\Application\Utils\Tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIElement\Button\UIButton.h">
+      <Filter>Source Files\Application\UI\UIElement\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIElement\RectShape\UIRectShape.h">
+      <Filter>Source Files\Application\UI\UIElement\RectShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIElement\Scroll\UIScroll.h">
+      <Filter>Source Files\Application\UI\UIElement\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Mouse\Mouse.h">
+      <Filter>Source Files\Application\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIElement\Input\UIInput.h">
+      <Filter>Source Files\Application\UI\UIElement\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIProperty\UIProperty.h">
+      <Filter>Source Files\Application\UI\UIProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIProperty\UIObservableEvent.h">
+      <Filter>Source Files\Application\UI\UIProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Utils\Helper.h">
+      <Filter>Source Files\Application\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\UI\UIElement\Repeat\UIRepeat.h">
+      <Filter>Source Files\Application\UI\UIElement\Repeat</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\GameLogic.h">
+      <Filter>Source Files\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Process\UIProcess.h">
+      <Filter>Source Files\GameLayer\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Process\UIProcessController.h">
+      <Filter>Source Files\GameLayer\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Process\UIDelayProcess.h">
+      <Filter>Source Files\GameLayer\Process\DelayProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Utils\XOrShift.h">
+      <Filter>Source Files\Application\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Process\UIFloatingProcess.h">
+      <Filter>Source Files\GameLayer\Process\FloatingProcess</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Scroll width="300">
+        <Stack orientation="horizontal">
+            <Repeat count="7">
+                <RectShape width="20" r="255" g="255" b="255" />
+                <RectShape width="45" r="255" g="255" b="0" />
+            </Repeat>
+        </Stack>
+    </Scroll>
+</UI>

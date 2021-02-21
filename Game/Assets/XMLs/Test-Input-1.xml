@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Input placeholder="<enter some text>" fontSize="50" />
+</UI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        Yes, even button states can be bound to variables.
+        As the value of 'states' changes the top button should react accordingly.
+        The last option clears out states, and so the bound rect shape should be always visible.
+    -->
+    <Stack>
+        <Button width="300" height="100">
+            <RectShape r="64" g="64" b="64" />
+            <RectShape button:states="{states}" r="127" g="127" b="127" />
+            <Label text="States: {states}" />
+        </Button>
+        <Label text="Choose a set of states:" />
+        <Button width="300" height="100">
+            <RectShape r="0" g="64" b="64" />
+            <Label text="up" />
+            <Data button:on="clicked" variable="states" value="up" />
+        </Button>
+        <Button width="300" height="100">
+            <RectShape r="64" g="64" b="0" />
+            <Label text="over" />
+            <Data button:on="clicked" variable="states" value="over" />
+        </Button>
+        <Button width="300" height="100">
+            <RectShape r="64" g="0" b="64" />
+            <Label text="over,down" />
+            <Data button:on="clicked" variable="states" value="over,down" />
+        </Button>
+        <Button width="300" height="100">
+            <RectShape r="0" g="0" b="64" />
+            <Label text="up,down" />
+            <Data button:on="clicked" variable="states" value="up,down" />
+        </Button>
+        <Button width="300" height="100">
+            <RectShape r="64" g="0" b="0" />
+            <Label text="None!" />
+            <Data button:on="clicked" variable="states" value="" />
+        </Button>
+    </Stack>
+</UI>

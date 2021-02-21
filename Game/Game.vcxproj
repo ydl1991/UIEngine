@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GameApp\GameApp.cpp" />
+    <ClCompile Include="Source\GameLogic\Logic.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\StateMachine\GameState\GameMenuState.cpp" />
+    <ClCompile Include="Source\StateMachine\GameState\GameRunningState.cpp" />
+    <ClCompile Include="Source\StateMachine\StateMachine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GameApp\GameApp.h" />
+    <ClInclude Include="Source\GameLogic\Logic.h" />
+    <ClInclude Include="Source\StateMachine\BaseState.h" />
+    <ClInclude Include="Source\StateMachine\GameState\GameMenuState.h" />
+    <ClInclude Include="Source\StateMachine\GameState\GameRunningState.h" />
+    <ClInclude Include="Source\StateMachine\StateMachine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Assets\XMLs\Final\Final-Game-Menu.xml" />
+    <Xml Include="Assets\XMLs\Final\Final-Game-UI.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-0.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-1.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-10.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-11.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-12.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-2.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-3.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-4.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-5.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-6.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-7.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-8.xml" />
+    <Xml Include="Assets\XMLs\Final\Match-Image-9.xml" />
+    <Xml Include="Assets\XMLs\Test-Button-1.xml" />
+    <Xml Include="Assets\XMLs\Test-Button-2.xml" />
+    <Xml Include="Assets\XMLs\Test-Button-3.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-1.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-10.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-2.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-3.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-4.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-5.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-6.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-7.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-8.xml" />
+    <Xml Include="Assets\XMLs\Test-Data-9.xml" />
+    <Xml Include="Assets\XMLs\Test-Dialog-Layout.xml" />
+    <Xml Include="Assets\XMLs\Test-Input-1.xml" />
+    <Xml Include="Assets\XMLs\Test-Input-2.xml" />
+    <Xml Include="Assets\XMLs\Test-Input-3.xml" />
+    <Xml Include="Assets\XMLs\Test-Input-4.xml" />
+    <Xml Include="Assets\XMLs\Test-Input-5.xml" />
+    <Xml Include="Assets\XMLs\Test-Input-6.xml" />
+    <Xml Include="Assets\XMLs\Test-Mask-1.xml" />
+    <Xml Include="Assets\XMLs\Test-Mask-2.xml" />
+    <Xml Include="Assets\XMLs\Test-RectShape-1.xml" />
+    <Xml Include="Assets\XMLs\Test-RectShape-2.xml" />
+    <Xml Include="Assets\XMLs\Test-Repeat-1.xml" />
+    <Xml Include="Assets\XMLs\Test-Repeat-2.xml" />
+    <Xml Include="Assets\XMLs\Test-Repeat-3.xml" />
+    <Xml Include="Assets\XMLs\Test-Scroll-1.xml" />
+    <Xml Include="Assets\XMLs\Test-Scroll-2.xml" />
+    <Xml Include="Assets\XMLs\Test-Scroll-3.xml" />
+    <Xml Include="Assets\XMLs\Test-Stack-1.xml" />
+    <Xml Include="Assets\XMLs\Test-Stack-2.xml" />
+    <Xml Include="Assets\XMLs\Test-Stack-3.xml" />
+    <Xml Include="Assets\XMLs\Test-Wrap-1.xml" />
+    <Xml Include="Assets\XMLs\Test-Wrap-2.xml" />
+    <Xml Include="Assets\XMLs\Test-Wrap-3.xml" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{6D8D0539-FDE3-49CF-B0F7-4DEA9C70EB25}</ProjectGuid>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)Builds\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)Builds\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)Builds\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)Builds\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\;$(SolutionDir)Toolset\Include\;$(SolutionDir)Engine\Source\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)Binaries\$(PlatformShortName)_$(Configuration)\;$(SolutionDir)Toolset\$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UIEngine.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;Rpcrt4.lib;vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Toolset\$(PlatformShortName)\*.dll" "$(OutDir)" /d /i /y</Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
+      <Command>xcopy "$(ProjectDir)Assets\*" "$(ProjectDir)Builds\$(PlatformShortName)_$(Configuration)\Assets" /y /i /d /s</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\;$(SolutionDir)Toolset\Include\;$(SolutionDir)Engine\Source\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)Binaries\$(PlatformShortName)_$(Configuration)\;$(SolutionDir)Toolset\$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UIEngine.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;Rpcrt4.lib;vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Toolset\$(PlatformShortName)\*.dll" "$(OutDir)" /d /i /y</Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
+      <Command>xcopy "$(ProjectDir)Assets\*" "$(ProjectDir)Builds\$(PlatformShortName)_$(Configuration)\Assets" /y /i /d /s</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\;$(SolutionDir)Toolset\Include\;$(SolutionDir)Engine\Source\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Binaries\$(PlatformShortName)_$(Configuration)\;$(SolutionDir)Toolset\$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UIEngine.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;Rpcrt4.lib;vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Toolset\$(PlatformShortName)\*.dll" "$(OutDir)" /d /i /y</Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
+      <Command>xcopy "$(ProjectDir)Assets\*" "$(ProjectDir)Builds\$(PlatformShortName)_$(Configuration)\Assets" /y /i /d /s</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\;$(SolutionDir)Toolset\Include\;$(SolutionDir)Engine\Source\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Binaries\$(PlatformShortName)_$(Configuration)\;$(SolutionDir)Toolset\$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UIEngine.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;Rpcrt4.lib;vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Toolset\$(PlatformShortName)\*.dll" "$(OutDir)" /d /i /y</Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
+      <Command>xcopy "$(ProjectDir)Assets\*" "$(ProjectDir)Builds\$(PlatformShortName)_$(Configuration)\Assets" /y /i /d /s</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

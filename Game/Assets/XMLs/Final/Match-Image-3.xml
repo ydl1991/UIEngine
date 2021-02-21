@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        The game is basically composed by UIs, therefore this XML is gonna have most of the content showing on screen.
+        The rest will just be logic written in Logic.h to malnipulate the UIs.
+    -->
+ 
+	<!-- Match Image -->
+	<Image width="100%" height="100%" visible ="false" tag="match3" source="Assets/MatchImages/3.png"/>      
+
+</UI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        This test demonstrates that values can be bound without providing a default
+        value through a <Data> element.  Additionally, Input now has an attribute that represents
+        its text value.  So, as text is edited in Input, the data variable should be updated,
+        which will then cause the Label to display new text.
+    -->
+    <Stack>
+        <Input text="{label}" />
+        <Label text="{label}" />
+    </Stack>
+</UI>

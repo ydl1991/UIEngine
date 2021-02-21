@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameApp">
+      <UniqueIdentifier>{9b4129e3-7742-4350-9bd0-54b0a5156a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLogic">
+      <UniqueIdentifier>{022288fe-3fbc-42da-9afd-b0322ebeefe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XMLs">
+      <UniqueIdentifier>{8ecb0aee-c6dd-428d-8e8a-27e38f5bcc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{71749f33-8057-461b-bcc0-0abc3be8acc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateMachine">
+      <UniqueIdentifier>{5a382f88-89b7-45ad-8b36-f4bdd8466dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateMachine\GameState">
+      <UniqueIdentifier>{65ae71a1-df5a-4cbc-8343-137468fe8351}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameApp\GameApp.cpp">
+      <Filter>Source Files\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameLogic\Logic.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateMachine\StateMachine.cpp">
+      <Filter>Source Files\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateMachine\GameState\GameMenuState.cpp">
+      <Filter>Source Files\StateMachine\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateMachine\GameState\GameRunningState.cpp">
+      <Filter>Source Files\StateMachine\GameState</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GameApp\GameApp.h">
+      <Filter>Source Files\GameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameLogic\Logic.h">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine\BaseState.h">
+      <Filter>Source Files\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine\StateMachine.h">
+      <Filter>Source Files\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine\GameState\GameMenuState.h">
+      <Filter>Source Files\StateMachine\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine\GameState\GameRunningState.h">
+      <Filter>Source Files\StateMachine\GameState</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Assets\XMLs\Test-Button-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Button-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Button-3.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-3.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-4.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-5.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-6.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-7.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-8.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-9.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Data-10.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Dialog-Layout.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Input-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Input-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Input-3.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Input-4.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Input-5.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Input-6.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Mask-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Mask-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-RectShape-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-RectShape-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Repeat-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Repeat-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Repeat-3.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Scroll-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Scroll-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Scroll-3.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Stack-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Stack-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Stack-3.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Wrap-1.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Wrap-2.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Test-Wrap-3.xml">
+      <Filter>Test</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-0.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-1.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-2.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-3.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-4.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-5.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-6.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-7.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-8.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-9.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-10.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-11.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Match-Image-12.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Final-Game-Menu.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+    <Xml Include="Assets\XMLs\Final\Final-Game-UI.xml">
+      <Filter>Source Files\XMLs</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

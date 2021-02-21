@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        This test initializes a variable, label, to a default value.
+        The Label element has its text attribute bound to the label, so it should display it as text.
+    -->
+    <Data variable="label" value="Hello, world!" />
+    <Label text="{label}" />
+</UI>

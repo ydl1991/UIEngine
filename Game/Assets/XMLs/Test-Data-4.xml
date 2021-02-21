@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        This test introduces the notion that a <Data> element can be activated
+        in response to an event from a button.  In this case, the Label will
+        initially display "Status: None" until the button is clicked for the first time
+        after which the text will change to "Status: Button clicked!"
+    -->
+    <Data variable="status" value="None" />
+    <Stack>
+        <Label text="Status: {status}" />
+        <Button width="300" height="100">
+            <RectShape button:states="up" r="63" g="72" b="204" />
+            <RectShape button:states="over" r="145" g="151" b="225" />
+            <RectShape button:states="down" r="37" g="45" b="137" />
+            <Data button:on="clicked" variable="status" value="Button clicked!" />
+        </Button>
+    </Stack>
+</UI>

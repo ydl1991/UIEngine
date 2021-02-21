@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        This extends Test-Data-4 to demonstrate we can have multiple buttons changing values.
+    -->
+    <Data variable="option" value="None" />
+    <Stack>
+        <Label text="Option: {option}" />
+        <Button width="300" height="100">
+            <RectShape button:states="up" r="63" g="72" b="204" />
+            <RectShape button:states="over" r="145" g="151" b="225" />
+            <RectShape button:states="down" r="37" g="45" b="137" />
+            <Data button:on="clicked" variable="option" value="1" />
+        </Button>
+        <Button width="300" height="100">
+            <RectShape button:states="up" r="163" g="72" b="204" />
+            <RectShape button:states="over" r="215" g="151" b="225" />
+            <RectShape button:states="down" r="137" g="45" b="137" />
+            <Data button:on="clicked" variable="option" value="2" />
+        </Button>
+        <Button width="300" height="100">
+            <RectShape button:states="up" r="63" g="172" b="204" />
+            <RectShape button:states="over" r="145" g="191" b="225" />
+            <RectShape button:states="down" r="37" g="145" b="137" />
+            <Data button:on="clicked" variable="option" value="3" />
+        </Button>
+    </Stack>
+</UI>

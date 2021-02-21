@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        With this test, it is very similar to Test-Data-2 except that we are providing
+        a default value through a <Data> element.  This means that the <Input> element
+        should be pre-populated with the initial value for 'label'.
+        Additionally, the data-bound variable label is not the only text present in the
+        Label's text attribute.  So, for example, the Label should initially display
+        the text "Text: Data-driven text!" and only the portion represented by {label}
+        should change.
+    -->
+    <Data variable="label" value="Data-driven text!" />
+    <Stack>
+        <Input text="{label}" />
+        <Label text="Text: {label}" />
+    </Stack>
+</UI>

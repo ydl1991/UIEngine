@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        This test is similar to Test-Data-5 except we are binding multiple attributes.
+    -->
+    <Data variable="r" value="255" />
+    <Data variable="g" value="255" />
+    <Data variable="b" value="255" />
+    <Stack>
+        <Label text="Color: {r},{g},{b}" />
+        <RectShape width="100" height="100" r="{r}" g="{g}" b="{b}" />
+        <Wrap>
+            <Label text="Red: " />
+            <Input text="{r}" />
+        </Wrap>
+        <Wrap>
+            <Label text="Green: " />
+            <Input text="{g}" />
+        </Wrap>
+        <Wrap>
+            <Label text="Blue: " />
+            <Input text="{b}" />
+        </Wrap>
+    </Stack>
+</UI>

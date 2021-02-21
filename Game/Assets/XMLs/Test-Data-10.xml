@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        These two input elements modify the same variable and therefore when one input is
+        changed, the other should have its text changed, and vice-versa.
+        This case is valid and should not introduce an infinite loop!
+    -->
+    <Stack>
+        <Label text="Current text: {text}" />
+        <Input width="100" text="{text}" />
+        <Input width="100" text="{text}" />
+    </Stack>
+</UI>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Mask height="100">
+        <Image width="100%" height="150" slices="4,4,4,4" source="Assets/Button/background-sliced.png" />
+    </Mask>
+</UI>

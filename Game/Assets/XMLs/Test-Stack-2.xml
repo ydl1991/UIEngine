@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Stack orientation="horizontal" height="200">
+        <Label valign="middle" text="1" fontSize="40" />
+        <Label valign="middle" text="2" />
+        <Label valign="middle" text="3" />
+        <Label valign="middle" text="4" />
+        <Label valign="middle" text="5" />
+        <Label valign="bottom" text="6" fontSize="20" />
+        <Label valign="bottom" text="7" />
+        <Label valign="bottom" text="8" />
+        <Label valign="bottom" text="9" />
+        <Label valign="bottom" text="10" />
+        <Label valign="bottom" text="11" />
+    </Stack>
+</UI>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Input fontSize="30">
+        <RectShape input:focused="false" r="32" g="32" b="32" />
+        <RectShape input:focused="true" r="32" g="64" b="32" />
+        <RectShape input:focused="true" filled="false" r="0" g="255" b="0" />
+        <RectShape input:focused="false" filled="false" r="96" g="96" b="96" />
+    </Input>
+</UI>

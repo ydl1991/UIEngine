@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Scroll height="200">
+        <Stack>
+            <Label text="Start" />
+            <Repeat count="10">
+                <Label text="Item" />
+                <RectShape height="20" r="255" g="255" b="0" />
+            </Repeat>
+            <Label text="End" />
+        </Stack>
+    </Scroll>
+</UI>

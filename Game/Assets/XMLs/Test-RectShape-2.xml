@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Stack>
+        <RectShape width="50" height="50" r="255" g="255" b="255" />
+        <RectShape width="50" height="50" r="255" g="255" b="255" filled="false" />
+        <RectShape width="50" height="50" r="0" g="255" b="255" />
+        <RectShape width="50" height="50" r="0" g="255" b="255" filled="false" />
+        <RectShape width="50" height="50" r="255" g="0" b="255" />
+        <RectShape width="50" height="50" r="255" g="0" b="255" filled="false" />
+    </Stack>
+</UI>

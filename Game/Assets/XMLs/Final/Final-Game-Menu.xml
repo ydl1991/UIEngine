@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        The game is basically composed by UIs, therefore this XML is gonna have most of the content showing on screen.
+        The rest will just be logics written in Logic.h to mulnipulate the UIs.
+    -->
+
+    <!-- Main Canvas Verticle Stack -->
+    <Stack orientation="vertical" >
+        
+        <!-- Top Info Panel -->
+        <!-- Panel Background Image -->
+        <Label width="100%" height="60%" fontSize="100" halign="center" valign="middle" text="HAPPY MATCH" tag="Title"/>
+      
+        <!-- Middle Panel -->
+        <!-- Buttons Panel -->
+        <Stack orientation="horizontal" height="20%" >
+            <RectShape width="35%" r="0" g="0" b="0" />
+
+            <RectShape width="30%" filled="false" r="0" g="102" b="255" >
+
+                <Stack orientation="vertical" horizontalGap ="42" verticalGap="15">
+                    <Button width="300" height="50" tag="StartButton">
+                        <Image button:states="up" width="100%" height="100%" source="Assets/Button/background-up.png" />
+                        <Image button:states="over" width="100%" height="100%" source="Assets/Button/background-over.png" />
+                        <Image button:states="down" width="100%" height="100%" source="Assets/Button/background-down.png" />
+                        <Label width="100%" height="100%" fontSize="20" halign="center" valign="middle" text="Start Game" />
+                    </Button>
+                    <Button width="300" height="50" tag="ExitButton">
+                        <Image button:states="up" width="100%" height="100%" source="Assets/Button/background-up.png" />
+                        <Image button:states="over" width="100%" height="100%" source="Assets/Button/background-over.png" />
+                        <Image button:states="down" width="100%" height="100%" source="Assets/Button/background-down.png" />
+                        <Label width="100%" height="100%" fontSize="20" halign="center" valign="middle" text="Exit" />
+                    </Button>
+                </Stack>
+
+            </RectShape>
+
+            <RectShape width="35%" r="0" g="0" b="0" />
+        </Stack>
+
+        <!-- Bot Panel -->
+        <RectShape height="20%" r="0" g="0" b="0" />
+
+    </Stack>
+
+</UI>

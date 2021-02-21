@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <!--
+        Repeat elements can have their counts dynamically change.
+    -->
+    <Data variable="count" value="0" />
+    <Stack>
+        <Wrap>
+            <Label text="Items:" />
+            <Input width="100" text="{count}" />
+        </Wrap>
+        <Repeat count="{count}">
+            <Label text="Item!" />
+        </Repeat>
+    </Stack>
+</UI>

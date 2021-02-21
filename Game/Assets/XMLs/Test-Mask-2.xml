@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Mask height="300">
+        <Stack>
+            <Repeat count="7">
+                <RectShape height="45" r="255" g="255" b="0" />
+            </Repeat>
+        </Stack>
+    </Mask>
+</UI>

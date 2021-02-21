@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Image
+        width="100%" height="100%"
+        source="Assets/dialog.png"
+        slices="20,33,66,32">
+        <Stack>
+            <Label width="100%" height="66" valign="middle" halign="center" text="Dialog Title" />
+            <Wrap width="100%">
+                <Label text="Dessert" />
+                <Label text="apple" />
+                <Label text="pie" />
+                <Label text="apple" />
+                <Label text="pie" />
+                <Label text="dessert" />
+                <Label text="carrot" />
+                <Label text="cake." />
+                <Label text="Wafer" />
+                <Label text="lollipop" />
+                <Label text="cheesecake" />
+                <Label text="jujubes" />
+                <Label text="powder" />
+                <Label text="biscuit" />
+                <Label text="gingerbread" />
+                <Label text="dragée" />
+                <Label text="tart." />
+                <Label text="Caramels" />
+                <Label text="lollipop" />
+                <Label text="lemon" />
+                <Label text="drops" />
+                <Label text="fruitcake." />
+                <Label text="Croissant" />
+                <Label text="lollipop" />
+                <Label text="muffin" />
+                <Label text="candy" />
+                <Label text="oat" />
+                <Label text="cake" />
+                <Label text="donut" />
+                <Label text="lemon" />
+                <Label text="drops" />
+                <Label text="dessert" />
+                <Label text="marzipan." />
+            </Wrap>
+        </Stack>
+    </Image>
+</UI>

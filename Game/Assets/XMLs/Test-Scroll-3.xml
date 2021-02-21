@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Mask height="300">
+        <Scroll>
+            <Stack>
+                <Label text="Start" />
+                <Repeat count="10">
+                    <Label width="100%" halign="center" text="Item" />
+                    <RectShape height="20" r="0" g="0" b="255" />
+                </Repeat>
+                <Label text="End" />
+            </Stack>
+        </Scroll>
+    </Mask>
+</UI>

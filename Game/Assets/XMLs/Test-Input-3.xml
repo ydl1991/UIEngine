@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Stack>
+        <Repeat count="3">
+            <Wrap>
+                <Label text="Input:" />
+                <Input width="100" />
+            </Wrap> 
+        </Repeat>
+    </Stack>
+</UI>

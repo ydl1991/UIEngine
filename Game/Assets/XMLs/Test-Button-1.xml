@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+    <Button width="300" height="100">
+        <Image width="100%" height="100%" slices="4,4,4,4" source="Assets/Button/background-sliced.png" />
+        <Label width="100%" height="100%" halign="center" valign="middle"
+            button:states="up"
+            text="Up" />
+        <Label width="100%" height="100%" halign="center" valign="middle"
+            button:states="over"
+            text="Over" />
+        <Label width="100%" height="100%" halign="center" valign="middle"
+            button:states="down"
+            text="Down" />
+    </Button>
+</UI>
